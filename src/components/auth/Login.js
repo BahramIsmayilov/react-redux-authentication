@@ -21,14 +21,14 @@ const Login = () => {
 						</div>
 						<form>
 							<div className='form-group'>
-								<label for='InputEmail'>Email address</label>
+								<label for='InputEmail'><i><strong>Email address</strong></i> or <i><strong>username</strong></i></label>
 								<input type='email' className='form-control form-control-sm' />
 								<small id='emailHelp' className='form-text text-muted'>
 									We'll never share your email with anyone else.
 								</small>
 							</div>
 							<div className='form-group'>
-								<label for='InputPassword1'>Password</label>
+								<label for='InputPassword1'><i><strong>Password</strong></i></label>
 								<input type='password' className='form-control form-control-sm' />
 							</div>
 							<button type='submit' className='btn btn-danger btn-sm'>
